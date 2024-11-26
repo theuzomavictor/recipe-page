@@ -121,6 +121,42 @@ table .last-row {
     padding: 20px 0px;
 }
 
+/* Mobile screens */
 
+@media (max-width:580px) {
+    .recipe-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 30px ;
+    }
+
+    .recipe-img {
+        max-width: 100%;
+        padding: 10px;
+        padding-bottom: 20px;
+        border-radius: 18px;
+    }
+
+    h1 {
+        color: hsl(24, 5%, 18%);
+        margin-bottom: 10px;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    .recipe-content {
+        padding: 0px 10px;
+    }
+    
+    .attribution {
+        font-size: 16px;
+        text-align: center;
+        font-family: "Outfit", sans-serif;
+        font-weight: 500;
+        padding: 20px 40px;
+    }
+
+}
 
 
