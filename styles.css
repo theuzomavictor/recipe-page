@@ -3,13 +3,124 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: hsl(30, 54%, 90%);
+}
 
 h1 {
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 20px;
     font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+h3 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
 }
 
 p {
     font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+hr {
+    margin: 20px 0px;
+    border: 0.5px solid lightgray;
+}
+
+span {
+    font-weight: bold;
+}
+
+li, td {
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    line-height: 1.8rem;
+}
+
+table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 0.5px solid lightgray;
+    padding: 5px 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-container {
+    max-width: 500px;
+    background-color: #ffffff;
+    margin: 100px 0px;
+    border-radius: 18px;
+}
+
+.recipe-img {
+    max-width: 100%;
+    padding: 30px;
+    padding-bottom: 20px;
+    border-radius: 36px;
+}
+
+.recipe-content {
+    padding: 0px 30px;
+}
+
+.prep-time {
+    background-color: hsl(30, 54%, 90%);
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 8px;
+}
+
+.prep-time ul {
+    padding: 10px 20px;
+}
+
+.ingredients ul, .instructions  ol {
+    padding: 0px 30px;
+}
+
+.t-value {
+    color: hsl(14, 45%, 36%);
     font-weight: 500;
 }
+
+table .last-row {
+    border-bottom: none;
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+
+
+
